@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class HelloWorldHibernateTest {
     private static SessionFactory createSessionFactory() {
-        Configuration configuration = new org.hibernate.cfg.Configuration();
+        Configuration configuration = new Configuration();
         configuration.configure().addAnnotatedClass(Message.class);
         ServiceRegistry serviceRegistry =
                 new StandardServiceRegistryBuilder()
