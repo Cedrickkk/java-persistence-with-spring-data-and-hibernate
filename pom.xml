@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>ch1-ex1</module>
+        <module>ch2-ex1</module>
     </modules>
 
     <properties>
