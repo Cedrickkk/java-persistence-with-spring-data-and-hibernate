@@ -5,11 +5,16 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ch4/pom.xml" />
+        <option value="$PROJECT_DIR$/ch4/spring-data-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/ch4/springdatajpa/pom.xml" />
+        <option value="$PROJECT_DIR$/ch4/springdatajpa2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/ch3-ex1/pom.xml" />
+        <option value="$PROJECT_DIR$/ch4/spring-data-jpa/pom.xml" />
       </set>
     </option>
   </component>
