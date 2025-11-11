@@ -9,10 +9,18 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ch6</artifactId>
+    <artifactId>ch7</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>mapping-value-types</module>
+        <module>mapping-inheritance-mappedsuperclass</module>
+        <module>mapping-inheritance-tableperclass</module>
+        <module>mapping-inheritance-singletable</module>
+        <module>mapping-inheritance-singletableformula</module>
+        <module>mapping-inheritance-joined</module>
+        <module>mapping-inheritance-mixed</module>
+        <module>mapping-inheritance-embeddable</module>
+        <module>mapping-inheritance-manytoone</module>
+        <module>mapping-inheritance-onetomany</module>
     </modules>
 
     <properties>
@@ -38,9 +46,25 @@
             <version>9.0.1.Final</version>
         </dependency>
         <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jpa</artifactId>
+            <version>3.5.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>5.3.20</version>
+        </dependency>
+        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>5.12.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.el</groupId>
+            <artifactId>jakarta.el-api</artifactId>
+            <version>6.0.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -69,14 +93,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-jpa</artifactId>
-            <version>3.5.4</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <version>5.3.20</version>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.42</version>
         </dependency>
     </dependencies>
 
