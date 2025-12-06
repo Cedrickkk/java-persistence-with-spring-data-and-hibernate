@@ -16,6 +16,7 @@
       <set>
         <option value="$PROJECT_DIR$/ch3-ex1/pom.xml" />
         <option value="$PROJECT_DIR$/ch4/spring-data-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/ch8/associations/pom.xml" />
       </set>
     </option>
   </component>
