@@ -8,6 +8,10 @@
         <class>collections.sortedmapofstrings.Item</class>
         <class>collections.sortedsetofstrings.Item</class>
         <class>collections.setofstringsorderby.Item</class>
+        <class>collections.mapofstringsorderby.Item</class>
+        <class>collections.setofembeddables.Item</class>
+        <class>onetomany.bidirectional.Bid</class>
+        <class>onetomany.bidirectional.Item</class>
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <properties>
             <property name="javax.persistence.jdbc.driver"
